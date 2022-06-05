@@ -1,0 +1,53 @@
+timeout: 50
+
+elements:
+  homePage:
+    findBy: xpath
+    locator: //span[text()='Hello, Sign in']
+  optionsDisplayed:
+    findBy: xpath
+    locator: //*[contains(@class,'a-color-base a-text-normal')]
+  addToCart:
+    findBy: id
+    locator:  submit.add-to-cart
+  cart:
+    findBy: xpath
+    locator: //*[@aria-labelledby='attach-sidesheet-view-cart-button-announce'] 
+  adminViewtab:
+    findBy: xpath
+    locator: //*[text()='Admin View']
+  readerViewTab:
+    findBy: xpath
+    locator: //*[text()='Reader View']      
+  adminPage:
+    findBy: xpath
+    locator: //*[text()='Welcome Administrator!']   
+  readerPage:
+    findBy: xpath
+    locator: //*[text()='Welcome Reader!']
+  errorPage:
+    findBy: xpath
+    locator: //*[text()='HTTP ERROR 403']
+  LogIn:
+    findBy: xpath
+    locator: //*[@class="gnb-container"]
+  EnteremailID:
+    findBy: xpath
+    locator: //*[contains(@placeholder,'Enter your active Email ID / Username')]
+  selectElectronics:
+   findBy: xpath
+   locator: //a[text()=' Electronics ']
+  brandcategory:
+   findBy: xpath
+   locator: //span[text()='OnePlus']/../../..//i[@class="a-icon a-icon-checkbox"]  
+  oneproduct:
+   findBy: xpath
+   locator: //span[text()='OnePlus Nord CE 2 5G (Gray Mirror, 8GB RAM, 128GB Storage)']  
+  prdescription:
+   findBy: xpath
+   locator: //span[@class="a-size-base-plus a-color-base a-text-normal"]  
+  price:
+   findBy: xpath
+   locator: //span[@class="a-price-whole"]  
+ 
+
